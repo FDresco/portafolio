@@ -47,7 +47,7 @@
     background-size: cover;
 }
 
-& nav {
+.nav-bar {
     width: fit-content;
     height: fit-content;
     font-family:Arial, Helvetica, sans-serif;
@@ -113,8 +113,7 @@
 
 }
 
-
-.menu-toggle {
+/* .menu-toggle {
     display: none;
     background-color: rgb(225, 240, 226);
     height: 7%;
@@ -124,6 +123,9 @@
     top: 5%;
     right: 7%;
     cursor: pointer;
+
+      
+
 
     &__label {
         display: block;
@@ -143,7 +145,7 @@
         left: .1em;
         right: .5em;
         z-index: 2;
-
+        
     }
 
     &__top-bread {
@@ -165,5 +167,16 @@
         }
     }
 
-}
+} */
 
+/* #menu {
+    display: none;
+
+    &:checked + .nav-bar {
+        display: block;
+    }
+
+    &:checked ~ .menu-toggle__label {
+        background-color: yellow;
+    }
+} */

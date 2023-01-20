@@ -66,7 +66,7 @@ body {
   background-position: fixed bottom;
   background-size: cover;
 }
-.container nav {
+.container .nav-bar {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -77,7 +77,7 @@ body {
   font-size: 25px;
   padding-top: 25px;
 }
-.container nav a {
+.container .nav-bar a {
   text-decoration: none;
   padding-right: 2rem;
   color: rgb(220, 227, 233);
@@ -85,7 +85,7 @@ body {
   text-shadow: 1px 1px 2px black, 0 0 1em rgb(67, 248, 67), 0 0 0.2em rgb(67, 248, 67);
 }
 @media (max-width: 768px) {
-  .container nav {
+  .container .nav-bar {
     display: none;
   }
 }
@@ -127,44 +127,69 @@ body {
   filter: drop-shadow(0 0 23px var(--animation-color));
 }
 
-.menu-toggle {
-  display: none;
-  background-color: rgb(225, 240, 226);
-  height: 7%;
-  width: 5%;
-  position: absolute;
-  top: 5%;
-  right: 7%;
-  cursor: pointer;
-}
-.menu-toggle__label {
-  display: block;
-  background-color: white;
-  color: white;
-  height: 100%;
-}
-.menu-toggle__top-bread, .menu-toggle__meat, .menu-toggle__bottom-bread {
-  display: block;
-  background-color: rgb(58, 179, 58);
-  height: 0.2em;
-  width: 2em;
-  position: absolute;
-  left: 0.1em;
-  right: 0.5em;
-  z-index: 2;
-}
-.menu-toggle__top-bread {
-  top: 0.8em;
-}
-.menu-toggle__meat {
-  top: 50%;
-  margin-top: -0.1em;
-}
-.menu-toggle__bottom-bread {
-  bottom: 0.8em;
-}
-@media (max-width: 768px) {
-  .menu-toggle {
-    display: block;
-  }
-}/*# sourceMappingURL=main.css.map */
+/* .menu-toggle {
+    display: none;
+    background-color: rgb(225, 240, 226);
+    height: 7%;
+    width: 5%;
+    //flex: 0 0 3em;
+    position: absolute;
+    top: 5%;
+    right: 7%;
+    cursor: pointer;
+
+
+
+
+    &__label {
+        display: block;
+        background-color: white;
+        color: white;
+        height: 100%;
+    }
+
+    &__top-bread,
+    &__meat,
+    &__bottom-bread {
+        display: block;
+        background-color: rgb(58, 179, 58);
+        height: .2em;
+        width: 2em;
+        position: absolute;
+        left: .1em;
+        right: .5em;
+        z-index: 2;
+
+    }
+
+    &__top-bread {
+        top: .8em;
+    }
+
+    &__meat {
+        top: 50%;
+        margin-top: -.1em;
+    }
+
+    &__bottom-bread {
+        bottom: .8em;
+    }
+
+    @media (max-width: 768px) {
+        & {
+            display: block
+        }
+    }
+
+} */
+/* #menu {
+    display: none;
+
+    &:checked + .nav-bar {
+        display: block;
+    }
+
+    &:checked ~ .menu-toggle__label {
+        background-color: yellow;
+    }
+} *//*# sourceMappingURL=main.css.map */

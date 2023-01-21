@@ -5,6 +5,12 @@
     height: 100vh;
     margin-left: 4rem;
 
+     @media (max-width: 1024px) {
+        width: auto;
+        height: auto;
+     }
+     
+
 & header {
     align-self: center;
     height:fit-content;
@@ -14,7 +20,7 @@
     left: 5%;
     z-index: 2;
 
-     @media (max-width: 768px) {
+     @media (max-width: 1024px) {
       position: absolute;
       top: 40%;
      }

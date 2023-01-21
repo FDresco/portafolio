@@ -16,7 +16,7 @@
 
      @media (max-width: 768px) {
       position: absolute;
-      top: 25%;
+      top: 40%;
      }
 }
 
@@ -63,7 +63,7 @@
 
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 1024px) {
       display: none;
     }
 }
@@ -92,6 +92,7 @@
   color: transparent;
   -webkit-text-stroke: 0.5px var(--text-stroke-color);
 }
+
 /* this is the text, when you hover on button */
 .hover-text {
   position: absolute;
@@ -105,78 +106,34 @@
   transition: 0.5s;
   -webkit-text-stroke: 1px var(--animation-color);
 }
+
 /* hover */
 .button:hover .hover-text {
   width: 100%;
   filter: drop-shadow(0 0 23px var(--animation-color))
 }
 
+
 }
 
-/* .menu-toggle {
-    display: none;
-    background-color: rgb(225, 240, 226);
-    height: 7%;
-    width: 5%;
-    //flex: 0 0 3em;
-    position: absolute;
-    top: 5%;
-    right: 7%;
-    cursor: pointer;
-
-      
-
-
-    &__label {
-        display: block;
-        background-color: white;
-        color: white;
-        height: 100%;
+.fixed-top {
+    @media (min-width: 1024px) {
+        display: none;
     }
+    
+}
 
-    &__top-bread,
-    &__meat,
-    &__bottom-bread {
-        display: block;
-        background-color: rgb(58, 179, 58);
-        height: .2em;
-        width: 2em;
-        position: absolute;
-        left: .1em;
-        right: .5em;
-        z-index: 2;
-        
-    }
+.navbar {
+    font-family: changa;
+    font-size: 20px;
+}
 
-    &__top-bread {
-        top: .8em;
-    }
+.text-bg-dark {
+    background-color: rgba(44, 156, 50, 0.74)!important;
+}
 
-    &__meat {
-        top: 50%;
-        margin-top: -.1em;
-    }
+.offcanvas.offcanvas-end {
+    height: 14em;
+}
 
-    &__bottom-bread {
-        bottom: .8em;
-    }
 
-    @media (max-width: 768px) {
-        & {
-            display: block
-        }
-    }
-
-} */
-
-/* #menu {
-    display: none;
-
-    &:checked + .nav-bar {
-        display: block;
-    }
-
-    &:checked ~ .menu-toggle__label {
-        background-color: yellow;
-    }
-} */

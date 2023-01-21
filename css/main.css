@@ -45,7 +45,9 @@ body {
 @media (max-width: 1024px) {
   .container header {
     position: absolute;
-    top: 40%;
+    top: 38%;
+    left: 0%;
+    background-color: rgba(114, 110, 110, 0.575);
   }
 }
 .container h1, .container h4 {
@@ -155,4 +157,30 @@ body {
 
 .offcanvas.offcanvas-end {
   height: 14em;
+}
+
+.container .header-pages {
+  flex-direction: row;
+  position: relative;
+  bottom: 35%;
+  text-align: center;
+}
+@media (max-width: 1024px) {
+  .container .header-pages {
+    position: absolute;
+    top: 1%;
+    background-color: rgba(114, 110, 110, 0.575);
+    font-size: 0.7em;
+  }
+}
+.container .header-pages h1, .container .header-pages h4 {
+  font-size: 1.5em;
+}
+.container .header-pages nav {
+  font-size: 1.3em;
+  padding-top: 1px;
+}
+
+.offcanvas.offcanvas-end.toggle-pages {
+  width: 6em;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,29 @@
+.container {
+   & .header-pages {
+    flex-direction: row;
+    position: relative;
+    bottom: 35%;
+    text-align: center;
+        
+    @media (max-width: 1024px) {
+        position: absolute;
+        top: 1%;
+        background-color: rgba(114, 110, 110, 0.575);
+        font-size: 0.7em;
+        }
+
+    & h1, h4{
+        font-size: 1.5em;
+    }
+
+    & nav {
+        font-size: 1.3em;
+        padding-top: 1px;
+    }
+}
+
+}
+
+.offcanvas.offcanvas-end.toggle-pages {
+        width: 6em;
+    }

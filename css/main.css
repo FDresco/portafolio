@@ -46,7 +46,7 @@ body {
   .container header {
     position: absolute;
     top: 38%;
-    left: 0%;
+    left: 3%;
     background-color: rgba(114, 110, 110, 0.575);
   }
 }

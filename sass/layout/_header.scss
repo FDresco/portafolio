@@ -1,7 +1,7 @@
 .container {
    & .header-pages {
-    flex-direction: row;
-    position: relative;
+    flex-direction: column;
+    position: absolute;
     bottom: 35%;
     text-align: center;
         
@@ -12,8 +12,8 @@
         font-size: 0.7em;
         }
 
-    & h1, h4{
-        font-size: 1.5em;
+    & h1{
+        font-size: 2em;
     }
 
     & nav {

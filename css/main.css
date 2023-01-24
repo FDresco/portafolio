@@ -151,13 +151,33 @@ body {
 }
 
 .text-bg-dark {
-  background-color: rgba(44, 156, 50, 0.74) !important;
+  background-color: rgb(44, 156, 50) !important;
 }
 
 .offcanvas.offcanvas-end {
   height: 14em;
+  width: 6em;
+  border: 2px solid rgb(58, 189, 64);
+  box-shadow: 0 3px 4px rgb(207, 212, 222);
+  border-radius: 10px;
 }
 
+/* .section-cv {
+    align-self: center;
+    justify-content: center;
+    z-index: 2;
+
+& p {
+    z-index: 2;
+}
+} */
+/* .portafolio {
+    & .curriculum {
+        font-size: 15px;
+        position: fixed;
+        bottom:30%;
+    }
+} */
 .portafolio {
   z-index: 2;
   padding-top: 2em;
@@ -337,8 +357,4 @@ a {
 .container .header-pages nav {
   font-size: 1.3em;
   padding-top: 1px;
-}
-
-.offcanvas.offcanvas-end.toggle-pages {
-  width: 6em;
 }/*# sourceMappingURL=main.css.map */

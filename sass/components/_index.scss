@@ -145,11 +145,15 @@
 }
 
 .text-bg-dark {
-    background-color: rgba(44, 156, 50, 0.74)!important;
+    background-color: rgb(44, 156, 50)!important;
 }
 
 .offcanvas.offcanvas-end {
     height: 14em;
+    width: 6em;
+    border: 2px solid rgb(58, 189, 64);
+    box-shadow: 0 3px 4px rgba(207, 212, 222, 1);
+    border-radius: 10px;
 }
 
 

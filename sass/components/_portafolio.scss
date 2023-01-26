@@ -4,11 +4,10 @@
     padding-bottom: 1em;
     display: flex;
 
-     @media (max-width: 1024px) {
-      position: fixed;
-      top: 20%;
-      left: 25%;
-     }
+     /* @media (max-width: 1024px) {
+      padding-top: 0.1em;
+      padding-bottom: 0.1em;
+     } */
     
 
     & p {
@@ -16,6 +15,7 @@
     color: white;
     font-family: changa;
     font-size: 2rem;
+    background-color: rgba(97, 94, 94, 0.548);
     
 
     
@@ -23,11 +23,11 @@
 }
 
 .card-client {
-  @media (max-width: 1024px) {
+  /* @media (max-width: 1024px) {
       position: fixed;
       top: 32%;
       left: 12%;
-     }
+     } */
   background: #2cb5a0;
   //width: 13rem;
   padding-top: 25px;

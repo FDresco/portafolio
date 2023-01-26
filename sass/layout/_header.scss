@@ -7,6 +7,7 @@
         
     @media (max-width: 1024px) {
         position: absolute;
+        top: 20%;
         //top: 1%;
         //background-color: rgba(114, 110, 110, 0.575);
         font-size: 0.7em;
@@ -14,19 +15,19 @@
 
     & h1{
         font-size: 2em;
-        @media (max-width: 1024px) {
+        /* @media (max-width: 1024px) {
             position:fixed;
             top: 10%
-        }
+        } */
         
     }
 
     & h4 {
         font-size: 1.5em;
-        @media (max-width: 1024px) {
+        /* @media (max-width: 1024px) {
             position:fixed;
             top: 15%
-        }
+        } */
         
     }
 
